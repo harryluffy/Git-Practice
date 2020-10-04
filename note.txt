@@ -4,3 +4,21 @@ Kết nối dự án với repo: git remote add origin "url"
 Lần đầu chạy git cần tạo 2 lệnh này:
 git conmfig --global user.name "name"
 git conmfig --global user.email "email"
+
+Resolve conflict:
+1. Checkout về master (local)
+
+2. Pull master (remote) --> master (local)
+
+3. Checkout conflicted-branch
+
+4. git merge master
+
+5. Resolve/ Fix conflict
+
+6. Git push conflict
+
+
+git stash                   quăng modified code vào stash.
+git stash list              list các stash code đã quăng vào
+git stash apply stash{n}    lấy code trong stash           
