@@ -1,3 +1,6 @@
 Khởi tạo dự án: git init
 Kết nối dự án với repo: git remote add origin "url"
 
+Lần đầu chạy git cần tạo 2 lệnh này:
+git conmfig --global user.name "name"
+git conmfig --global user.email "email"
